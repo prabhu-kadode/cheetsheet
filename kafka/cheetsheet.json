@@ -1,0 +1,28 @@
+[
+   {
+        "description":"list all running services in mac",
+        "command": "brew services list"
+    },
+    {
+        "description":"start kafka",
+        "command": "brew services start kafka"
+    },
+    {
+        "description":"start zookeeper",
+        "command": "brew services start zookeeper"
+    },
+    {
+        "description":"list all topics ",
+        "command": "kafka-topics --list --bootstrap-server localhost:9092"
+    },
+    {
+        "description":"creat a topic",
+        "command": "kafka-topics --create --bootstrap-server localhost:9092 --topic test-kafka"
+    },
+    {    "description":"open prodcuer topic",
+        "command":"kafka-console-producer --topic test-kaf --bootstrap-server 192.168.137.198:9092"
+    },
+    {    "description":"open consumer topic",
+        "command":"kafka-console-consumer --topic test-kaf --bootstrap-server 192.168.137.198:9092"
+    }
+]
