@@ -19,10 +19,13 @@
         "description":"creat a topic",
         "command": "kafka-topics --create --bootstrap-server localhost:9092 --topic test-kafka"
     },
-    {    "description":"open prodcuer topic",
+    {    "description":"open prodcuer console to send message",
         "command":"kafka-console-producer --topic test-kaf --bootstrap-server 192.168.137.198:9092"
     },
-    {    "description":"open consumer topic",
+    {    "description":"open consumer console to consume message",
         "command":"kafka-console-consumer --topic test-kaf --bootstrap-server 192.168.137.198:9092"
+    },
+    {    "description":"to see all messages from kafka topic",
+         "command":"kafka-console-consumer --topic test-kaf --bootstrap-server 192.168.137.198:9092 --from-beginning"
     }
 ]
