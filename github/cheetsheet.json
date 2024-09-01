@@ -1,0 +1,32 @@
+[
+    {
+        "desscription":"Clone repo",
+        "command":"git clone sshurl",
+        "example":"git clone git@github.com:prabhu-kadode/cheetsheet.git"
+    },
+    {
+        "desscription":"Git add ",
+        "command":"git add .",
+        "example":"git add ."
+    },
+    {
+        "desscription":"Git commit",
+        "command":"git commit -m message",
+        "example":"git commit -m 'my first commit'"
+    },
+    {
+        "desscription":"Push your code to repo",
+        "command":"git push origin branchname",
+        "example":"git push origin feature/login-bug-fix"
+    },
+    {
+        "desscription":"Create branch",
+        "command":"git checkout -b branchname",
+        "example":"git checkout -b feature/IND-128-login"
+    },
+    {
+        "desscription":"Switch to branch",
+        "command":"git checkout  branchname",
+        "example":"git checkout feature/IND-128-login"
+    }
+]
