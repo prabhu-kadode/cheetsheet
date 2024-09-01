@@ -1,0 +1,26 @@
+[
+    {
+        "description":"Get all pods",
+        "command":"kubectl get pods"
+    },
+    {
+        "description":"Get logs of pod",
+        "command":"kubectl logs podname"
+    },
+    {
+        "description":"Get details information about pod",
+        "command":"kubectl describe pod podname"
+    },
+    {
+        "description":"create deployment helm",
+        "command":"kubectl apply -f deployment.ymal"
+    },
+    {
+        "description":"create service helm ",
+        "command":"kubectl apply -f service.yaml"
+    },
+    {
+        "description":"Get all services, pods and so on",
+        "command":"kubectl get all"
+    }
+]
