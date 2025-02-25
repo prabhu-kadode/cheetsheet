@@ -5,3 +5,5 @@ To start flink : ./bin/start-cluster.sh
 To run Job: ./bin/flink run examples/streaming/SocketWindowWordCount.jar
 
 To run job with real time : ./bin/flink run examples/streaming/SocketWindowWordCount.jar --hostname localhost --port 9999
+
+To run netcat command: nc -lk 9999
