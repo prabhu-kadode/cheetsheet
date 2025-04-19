@@ -27,5 +27,11 @@
     },
     {    "description":"to see all messages from kafka topic",
          "command":"kafka-console-consumer --topic test-kaf --bootstrap-server 192.168.137.198:9092 --from-beginning"
+    },
+    {    "description":"See the descriptions of topics in kafka",
+         "command":"kafka-topics  --bootstrap-server 192.168.75.198:9092 --describe --topic input-topic" 
+    },
+    {    "description":"Upgrade the partitions in topics in kafka",
+         "command":"kafka-topics  --bootstrap-server 192.168.75.198:9092 --alter --topic input-topic --partitions 5" 
     }
 ]
