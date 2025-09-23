@@ -28,5 +28,13 @@
         "desscription":"Switch to branch",
         "command":"git checkout  branchname",
         "example":"git checkout feature/IND-128-login"
+    },
+    {
+        "desscription":"Generate SSH",
+        "command":"ssh-keygen -t rsa -b 4096 -C "your_email@example.com",
+        "example":"ssh-keygen -t rsa -b 4096 -C "your_email@example.com""
     }
+    
+   
+
 ]
